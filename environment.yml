@@ -1,0 +1,12 @@
+name:  allennlp
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.7
+  - ipython=7.2
+  - cython=0.29
+  - pytorch=0.4.1
+  - pip:
+    - allennlp==0.7.2
+    - torchvision==0.2.1
